@@ -63,7 +63,7 @@ export default function AboutUsPage() {
               name: "Nguyễn Quỳnh Trang",
               role: "Founder & CEO",
               image:
-                "https://img.freepik.com/free-vector/anime-chibi-boy-standing-character_18591-82512.jpg?semt=ais_hybrid&w=740&q=80",
+                "https://static.vecteezy.com/system/resources/thumbnails/041/438/791/small_2x/cute-girl-cartoon-character-korean-style-fashion-people-expression-concept-design-chibi-illustration-isolated-white-background-vector.jpg",
             },
             {
               name: "Hồ Hà Ý Nhi",
@@ -75,7 +75,7 @@ export default function AboutUsPage() {
               name: "Đặng Thị Kim Ngọc",
               role: "Customer Support",
               image:
-                "https://img.freepik.com/free-vector/anime-chibi-boy-standing-character_18591-82512.jpg?semt=ais_hybrid&w=740&q=80",
+                "https://static.vecteezy.com/system/resources/thumbnails/041/438/791/small_2x/cute-girl-cartoon-character-korean-style-fashion-people-expression-concept-design-chibi-illustration-isolated-white-background-vector.jpg",
             },
             {
               name: "Phạm Thị Như Ngọc",
