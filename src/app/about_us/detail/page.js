@@ -60,25 +60,31 @@ export default function AboutUsPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             {
-              name: "Nguyễn Văn A",
+              name: "Nguyễn Quỳnh Trang",
               role: "Founder & CEO",
               image:
                 "https://img.freepik.com/free-vector/anime-chibi-boy-standing-character_18591-82512.jpg?semt=ais_hybrid&w=740&q=80",
             },
             {
-              name: "Trần Thị B",
+              name: "Hồ Hà Ý Nhi",
               role: "Marketing Manager",
               image:
                 "https://static.vecteezy.com/system/resources/thumbnails/041/438/791/small_2x/cute-girl-cartoon-character-korean-style-fashion-people-expression-concept-design-chibi-illustration-isolated-white-background-vector.jpg",
             },
             {
-              name: "Lê Văn C",
-              role: "Product Developer",
+              name: "Đặng Thị Kim Ngọc",
+              role: "Customer Support",
               image:
                 "https://img.freepik.com/free-vector/anime-chibi-boy-standing-character_18591-82512.jpg?semt=ais_hybrid&w=740&q=80",
             },
             {
-              name: "Phạm Thị D",
+              name: "Phạm Thị Như Ngọc",
+              role: "Customer Support",
+              image:
+                "https://static.vecteezy.com/system/resources/thumbnails/041/438/791/small_2x/cute-girl-cartoon-character-korean-style-fashion-people-expression-concept-design-chibi-illustration-isolated-white-background-vector.jpg",
+            },
+            {
+              name: "Nguyễn Thị Kim Ly",
               role: "Customer Support",
               image:
                 "https://static.vecteezy.com/system/resources/thumbnails/041/438/791/small_2x/cute-girl-cartoon-character-korean-style-fashion-people-expression-concept-design-chibi-illustration-isolated-white-background-vector.jpg",
