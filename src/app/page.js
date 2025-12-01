@@ -17,10 +17,10 @@ const topProducts = [
   },
   {
     id: 3,
-    name: "Bột Matcha Latte",
+    name: "Bột Matcha Marukyu Koyamaen 40g",
     price: 149000,
     image:
-      "https://uji-matcha.vn/wp-content/uploads/2023/10/41-510x510.png?auto=format&fit=crop&w=800&q=60",
+      "https://xachtaynhat.net/wp-content/uploads/2025/01/bot-tra-xanh-nhat-marukyu-koyamaen.jpg",
   },
 ];
 
@@ -41,10 +41,10 @@ const bestSell = [
   },
   {
     id: 6,
-    name: "Bột Matcha Latte",
-    price: 149000,
+    name: "Bột matcha Haru",
+    price: 200000,
     image:
-      "https://uji-matcha.vn/wp-content/uploads/2023/10/41-510x510.png?auto=format&fit=crop&w=800&q=60",
+      "https://matchashop.vn/kcfinder/upload/images/haru%2814%29.jpg",
   },
 ];
 
@@ -73,21 +73,34 @@ export default function Home() {
   return (
     <div className="font-sans text-gray-800 bg-[#f6f9f4]">
       {/* BANNER */}
-      <section
-        className="bg-cover bg-center text-white py-40 px-10 shadow-inner"
-        style={{
-          backgroundImage:
-            "url('https://uji-matcha.vn/wp-content/uploads/2017/08/home1_slide3-min-1024x424.jpg')",
-        }}
-      >
-        <h1 className="text-6xl font-bold drop-shadow-xl max-w-2xl">
-          Trải Nghiệm Matcha Nhật Bản Thượng Hạng
-        </h1>
-        <p className="text-2xl mt-4 max-w-xl drop-shadow-md">
-          Matcha được tuyển chọn trực tiếp từ vùng Uji & Kyoto – hương thơm dịu,
-          vị umami đậm đà.
-        </p>
-      </section>
+      <section className="relative text-white py-40 px-10 shadow-inner overflow-hidden">
+
+  {/* Video background */}
+  <video
+    className="absolute inset-0 w-full h-full object-cover object-[center]"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source src="https://www.shutterstock.com/shutterstock/videos/3882790151/preview/stock-footage-super-slow-motion-detail-shot-of-sprinkling-matcha-powder-filmed-on-high-speed-cinematic-camera.webm" type="video/mp4" />
+  </video>
+
+  {/* Overlay tối nhẹ cho đẹp */}
+  <div className="absolute inset-0 bg-black/40"></div>
+
+  {/* Content */}
+  <div className="relative">
+    <h1 className="text-6xl font-bold drop-shadow-xl max-w-2xl">
+      Trải Nghiệm Matcha Nhật Bản Thượng Hạng
+    </h1>
+    <p className="text-2xl mt-4 max-w-xl drop-shadow-md">
+      Matcha được tuyển chọn trực tiếp từ vùng Uji &amp; Kyoto – hương thơm dịu,
+      vị umami đậm đà.
+    </p>
+  </div>
+</section>
+
 
       {/* ABOUT */}
       <section id="about" className="px-10 py-20 bg-green-50">

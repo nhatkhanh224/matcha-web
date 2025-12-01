@@ -26,35 +26,55 @@ const demoCartProducts = [
   },
   {
     id: 3,
-    name: "Bột Matcha Latte",
-    price: 149000,
+    name: "Bột matcha Haru",
+    price: 200000,
     image:
-      "https://uji-matcha.vn/wp-content/uploads/2023/10/41-510x510.png?auto=format&fit=crop&w=800&q=60",
-    qty: 1,
+      "https://matchashop.vn/kcfinder/upload/images/haru%2814%29.jpg",
+     qty: 6,
   },
 ];
 
 const recommended = [
   {
-    id: 4,
+    id: 1,
     name: "Bột Matcha Latte (500gr)",
     price: 299000,
     image:
       "https://uji-matcha.vn/wp-content/uploads/Ban-sao-cua-n-13-510x510.png",
   },
   {
-    id: 5,
+    id: 2,
     name: "BỘT TRÀ XANH JASMINE",
     price: 199000,
-    image:
-      "https://uji-matcha.vn/wp-content/uploads/75-510x510.png",
+    image: "https://uji-matcha.vn/wp-content/uploads/75-510x510.png",
   },
   {
-    id: 6,
-    name: "Bột Matcha Latte",
+    id: 3,
+    name: "Bột Matcha Marukyu Koyamaen 40g",
     price: 149000,
     image:
-      "https://uji-matcha.vn/wp-content/uploads/2023/10/41-510x510.png?auto=format&fit=crop&w=800&q=60",
+      "https://xachtaynhat.net/wp-content/uploads/2025/01/bot-tra-xanh-nhat-marukyu-koyamaen.jpg",
+  },
+  {
+    id: 4,
+    name: "Bộ Dụng Cụ Đánh Trà Matcha (5 Món)",
+    price: 139000,
+    image:
+      "https://bizweb.dktcdn.net/100/451/459/products/bo-dung-cu-tra-dao-5-mon-1.jpg?v=1743389460787",
+  },
+  {
+    id: 5,
+    name: "Bột matcha Haru",
+    price: 200000,
+    image:
+      "https://matchashop.vn/kcfinder/upload/images/haru%2814%29.jpg",
+  },
+   {
+    id: 6,
+    name: "Bột matcha Karoshima (30g)",
+    price: 200000,
+    image:
+      "https://bizweb.dktcdn.net/100/451/459/products/matcha-kagoshima-nhat-ban-30g.png?v=1744634819320",
   },
 ];
 
